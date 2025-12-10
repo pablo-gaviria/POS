@@ -1,0 +1,75 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Database and backups
+*.sql
+backup_*.sql
+*.backup
+database/backups/
+
+# PHP logs
+error_log
+access_log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.cache/
+
+# Uploads
+public/assets/uploads/
+public/assets/images/uploads/
+
+# System files
+.env
+.env.local
+.env.*.local
+
+# Composer (if added in future)
+vendor/
+composer.lock
+
+# Node (if added in future)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Logs
+logs/
+*.log
+
+# Session files
+sessions/
+
+# OS specific
+.directory
+Thumbs.db
+.DS_Store
+ehthumbs.db
+desktop.ini
+
+# Configuration overrides (keep defaults in repo)
+# .htaccess
+
+# Build artifacts
+dist/
+build/
+
+# IDE specific
+.project
+.buildpath
+.settings
+*.sublime-project
+*.sublime-workspace
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
